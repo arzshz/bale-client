@@ -1,0 +1,19 @@
+# secrets / sessions
+.bale_token
+.env
+*.token
+
+# virtualenv & python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE / editor
+.idea/
+.vscode/
+
+# fetched data (may contain channel content)
+*_posts.json
+data/
